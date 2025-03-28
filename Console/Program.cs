@@ -56,7 +56,7 @@ public class Program
 		}
 	}
 
-	private static string GetInput(string prompt)
+	private static double GetInput(string prompt)
 	{
 		Console.Write(prompt);
 
