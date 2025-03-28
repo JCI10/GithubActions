@@ -36,6 +36,7 @@ public class Program
 						break;
 					case "5":
 						operation = Power;
+						Math.Pow(x,y);
 						break;
 					case "6":
 						loop = false;
