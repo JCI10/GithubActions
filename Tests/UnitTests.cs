@@ -121,4 +121,5 @@ public class Addition
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Power("1", null));
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Power(null, "1"));
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Power(null, null));
+	}
 }
